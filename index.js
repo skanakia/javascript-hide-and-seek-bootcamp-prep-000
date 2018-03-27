@@ -11,3 +11,7 @@ function deepestChild() {
   let nodeArray = Array.from(node)
   return nodeArray[nodeArray.length - 1]
 }
+
+function increaseRankBy(n) {
+  
+}
