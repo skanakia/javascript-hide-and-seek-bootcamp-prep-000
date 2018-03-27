@@ -7,11 +7,11 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  let node = document.querySelectorAll('#grand-node div')
-  let nodeArray = Array.from(node)
-  return nodeArray[nodeArray.length - 1]
+  let nodes = document.querySelectorAll('#grand-node div')
+  let nodesArray = Array.from(node)
+  return nodesArray[nodesArray.length - 1]
 }
 
 function increaseRankBy(n) {
-  
+  let nodes = document.querySelectorAll('')
 }
